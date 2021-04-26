@@ -1,0 +1,82 @@
+@font-face {
+  font-family: EditorialNew-Light;
+  src: url("fonts/EditorialNew-Light");
+}
+
+@font-face {
+  font-family: LiberationSerif;
+  src: url("fonts/LiberationSerif-Regular");
+}
+
+* {
+  padding: 0px;
+  margin: 0;
+}
+
+.websiteContainer {
+  width: 100%;
+  max-width: 500px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.titleText {
+  padding-top: 36px;
+  font-size: 64px;
+  font-family: EditorialNew-Light;
+  height: 100vh;
+
+}
+
+.bodyContainer {
+  width: 92%;
+  padding-bottom: 48px;
+  transition: opacity 0.1s;
+}
+
+.collapsible {
+  font-family: LiberationSerif;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 14px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-top: 1px solid black;
+}
+
+.active, .collapsible:hover {
+  background-color: white;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.contentContainer {
+  padding-bottom: 20px;
+}
+
+.content {
+  line-height: 22px;
+  padding: 0 14px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  text-align: left;
+}

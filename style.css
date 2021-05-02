@@ -44,7 +44,6 @@
   text-align: center;
   width: 100%;
   max-width: 500px;
-  height: 100px;
 }
 
 #coverCenterText {
@@ -132,6 +131,10 @@
   .websiteContainer {
     border-left: 0px solid black;
     border-right: 0px solid black;
+  }
+
+  .coverCenterTextContainer {
+    height: 164px;
   }
 
 

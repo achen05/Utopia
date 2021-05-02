@@ -41,6 +41,7 @@
 }
 
 .coverCenterTextContainer {
+  padding-top: -20px;
   text-align: center;
   width: 100%;
   max-width: 500px;
@@ -59,7 +60,7 @@
 
 #coverBottomText {
   position: absolute;
-  bottom: 36px;
+  bottom: 56px;
   text-align: center;
   width: 100%;
   max-width: 500px;

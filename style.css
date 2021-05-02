@@ -1,11 +1,11 @@
 @font-face {
   font-family: EditorialNew-Light;
-  src: url("fonts/EditorialNew-Light");
+  src: url("fonts/EditorialNew-Light.otf");
 }
 
 @font-face {
   font-family: LiberationSerif;
-  src: url("fonts/LiberationSerif-Regular");
+  src: url("fonts/LiberationSerif-Regular.ttf");
 }
 
 * {

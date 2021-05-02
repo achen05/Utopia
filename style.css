@@ -118,3 +118,17 @@
   background-color: white;
   text-align: left;
 }
+
+@media screen and (max-width: 500px) {
+
+  .websiteContainer {
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+  }
+
+  .coverContainer {
+    height: 90vh;
+
+  }
+
+}
